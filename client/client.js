@@ -151,7 +151,7 @@ function drawInLocalContainer(id){
     divUrl.style.marginTop = '15px'
 
     const pUrl = document.createElement('p')
-    pUrl.innerHTML = clientURL + '&' + contentInfo.filename
+    pUrl.innerHTML = clientURL + ' ' + contentInfo.filename
     divUrl.appendChild(pUrl)
 
     const buttonShow = document.createElement('button')
